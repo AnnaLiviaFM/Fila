@@ -12,7 +12,6 @@ struct fila{
 };
 
 void criarFila(struct fila *fila);
-void consultar(struct fila *fila);
 void inserirFinal(struct fila *fila, int valor);
 void removerInicio(struct fila *fila);
 void imprimir(struct fila *fila);
@@ -23,7 +22,6 @@ int main(){
   inserirFinal(&filinha, 10);
   inserirFinal(&filinha, 20);
   inserirFinal(&filinha, 30);
-  consultar(&filinha);
   removerInicio(&filinha);
   imprimir(&filinha);
   
